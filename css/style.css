@@ -108,3 +108,19 @@ body {
   margin: auto;
   padding-top: 20px;
 }
+
+/* deliver section added */
+.icons {
+  width: 50px;
+  margin-bottom: 25px;
+}
+
+.delivery-container {
+  height: 300px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
