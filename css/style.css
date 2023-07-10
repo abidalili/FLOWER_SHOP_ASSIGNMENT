@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&family=Open+Sans:wght@400;500;700;800&family=Poppins:wght@400;500;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* shared styles */
+body {
+  /* font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 3px;
+  background: #e55473;
+  border: none;
+  padding: 15px 30px;
+}
+/* banner section started */
+.banner-container {
+  height: 100vh;
+  display: flex;
+  background-color: rgba(229, 84, 115, 0.102);
+  align-items: center;
+  justify-content: left;
+}
+.banner-description {
+  width: 50%;
+  text-align: left;
+  margin: 10px 50px;
+}
+.banner-img {
+  margin-right: 50px;
+}
+
+.banner-des {
+  margin: 15px 0px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
