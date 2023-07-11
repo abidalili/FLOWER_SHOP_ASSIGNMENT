@@ -26,12 +26,12 @@ body {
   display: flex;
   background-color: rgba(229, 84, 115, 0.102);
   align-items: center;
-  justify-content: left;
+  justify-content: space-around;
 }
 .banner-description {
   width: 50%;
   text-align: left;
-  margin: 0px 50px;
+  margin: auto;
 }
 .banner-img {
   margin-right: 50px;
@@ -125,7 +125,7 @@ body {
   justify-content: center;
   text-align: center;
   margin: auto;
-  background-color: #c88f9b;
+  background-color: #96939458;
   width: 50%;
 }
 /* sale section start */
@@ -164,4 +164,35 @@ span {
 }
 .insta-p {
   margin-top: 25px;
+}
+.subscribe {
+  padding-top: 50px;
+  width: 1400px;
+  margin: 50px auto;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+  background-image: url("../Flower Asset//Rectangle\ 9.png");
+}
+input {
+  margin: 20px 10px;
+  padding: 20px 40px;
+  border: none;
+  width: 500px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* footer section started */
+.footer {
+  background-color: black;
+  height: 300px;
+  margin: auto;
+  color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 100px;
 }
