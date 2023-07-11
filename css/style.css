@@ -22,7 +22,7 @@ body {
 }
 /* banner section started */
 .banner-container {
-  height: 100vh;
+  height: 800px;
   display: flex;
   background-color: rgba(229, 84, 115, 0.102);
   align-items: center;
